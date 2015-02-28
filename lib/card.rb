@@ -51,6 +51,10 @@ class Card
     POKER_VALUE[symbol]
   end
 
+  def self.poker_value(symbol)
+    POKER_VALUE[symbol]
+  end
+
   def self.suits
     SUIT_STRINGS.keys
   end
